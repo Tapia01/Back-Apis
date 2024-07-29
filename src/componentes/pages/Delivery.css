@@ -1,0 +1,72 @@
+/* src/components/Delivery.css */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 1.5rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+  /* Header Styles */
+  .delivery-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .delivery-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Order Details Styles */
+  .order-details {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .order-details h2 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+  .order-details p {
+    margin: 0.75rem 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Container Styles */
+  .delivery-container {
+    padding: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

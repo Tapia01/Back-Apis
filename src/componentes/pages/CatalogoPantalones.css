@@ -1,0 +1,25 @@
+.catalogo-container {
+    padding: 20px;
+    margin-top: 150px; /* Aumenta el margen superior para bajar el contenedor */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño del contenedor */
+    /* También puedes usar position y transform si margin-top no funciona */
+    /* position: relative; */
+    /* top: 150px; */
+    /* transform: translateY(150px); */
+}
+
+#catalogopantalonesh1 {
+    background-color: rgb(71, 188, 17);
+    justify-content: center;
+    display: flex;
+}
+
+.all-catalogoPantalones {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+.box-catalogopantalones {
+    padding: 20px;
+}

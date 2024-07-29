@@ -1,0 +1,71 @@
+/* CatalogoCamisas.css */
+.catalogo-container {
+    border: 2px solid #000;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.catalogo-titulo {
+    margin: 0;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.Cards-ordenadas {
+    margin-top: 0px;
+    display: flex;
+    gap: 16px; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a múltiples líneas si es necesario */
+    margin-left: 80px;
+}
+
+.card {
+    width: 200px; /* Ajusta el ancho de las tarjetas según tus necesidades */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; /* Asegura que el indicador de "New Arrival" se posicione correctamente */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 8px;
+}
+
+.card-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: darkred;
+}
+
+.new-arrival {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px 0 8px 0;
+    font-weight: bold;
+}

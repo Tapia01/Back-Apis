@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.btn-regresar {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.formularios {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap; /* Allows wrapping of elements if needed */
+}
+
+.formulario, .tabla {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.label-form {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.formulario div {
+    margin-bottom: 1rem;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.formulario button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+.tabla {
+    margin-top: 2rem;
+}
+
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th, .tabla td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+.tabla th {
+    background-color: #f8f9fa;
+}

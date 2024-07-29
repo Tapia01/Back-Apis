@@ -1,0 +1,190 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 40%;
+    background-color: #938c8c;
+    border-radius: 10px;
+    width: 1000%;
+}
+
+
+.logo {
+    font-size: 1.5em;
+}
+
+.search-bar {
+    flex: 1; /* Asegura que la barra de búsqueda ocupe el espacio disponible */
+    margin: 0 10px; /* Agrega margen a los lados */
+    display: flex;
+    align-items: center; /* Centra verticalmente el input */
+}
+
+.search-bar input {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px;
+    border: 2px solid #ccc; /* Borde de la barra de búsqueda */
+    border-radius: 10px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+
+.user-options button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.user-options button.cart-icon {
+    font-size: 1.2em;
+}
+
+/* Navegación */
+nav {
+    background-color: #851414;
+    color: #0c0c0c;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Banner principal */
+.main-banner {
+    width: 100%;
+}
+
+.main-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Categorías */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.category p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Grilla de productos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card {
+    margin-left: 40px;
+}
+
+/* Contenedor de tarjetas */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: -30%; /* Espacio entre las tarjetas */
+    justify-content: flex-start; /* Alinea las tarjetas a la izquierda */
+    padding: 40px;
+    background-color: #328757;
+    box-sizing: border-box;
+    width: 115%;
+}
+
+.card {
+    flex: 1 1 calc(25% - 40px); /* Ajusta el ancho de las tarjetas y el espacio entre ellas */
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cards-background {
+    background-image: url('../../../public/Camisassss.jpeg'); /* Ruta a la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Ajusta según sea necesario */
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}

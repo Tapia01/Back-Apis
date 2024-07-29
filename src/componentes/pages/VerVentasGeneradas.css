@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto; /* Centrando el contenedor horizontalmente */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido horizontalmente */
+    justify-content: center; /* Centrar el contenido verticalmente */
+    min-height: 100vh; /* Ocupa al menos el 100% de la altura de la ventana */
+    text-align: center; /* Centrar el texto dentro del contenedor */
+}
+
+.style-container {
+    margin-left: 120%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px; /* Tamaño de la fuente del encabezado */
+    color: #333;
+}
+
+.btn-regresar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px; /* Tamaño del botón */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px; /* Tamaño de la fuente del botón */
+}
+
+.btn-regresar:hover {
+    background-color: #45a049;
+}
+
+.sales {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    margin-bottom: 20px;
+}
+
+.sales-table {
+    width: 90%; /* Ancho de la tabla ajustado al 90% del contenedor */
+    max-width: 1000px; /* Tamaño máximo de la tabla */
+    border-collapse: collapse;
+    font-size: 18px; /* Tamaño de la fuente de la tabla */
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+}
+
+.sales-table th, .sales-table td {
+    border: 1px solid #ddd;
+    padding: 16px; /* Padding de las celdas */
+    text-align: left;
+}
+
+.sales-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.sales-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.sales-table tr:hover {
+    background-color: #ddd;
+}
+
+.chart {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chart h2 {
+    font-size: 24px; /* Tamaño de la fuente del gráfico */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.chart-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
